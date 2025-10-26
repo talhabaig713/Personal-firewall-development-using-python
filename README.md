@@ -11,14 +11,15 @@ Developing firewall using scapy and iptables using python in linux
 8.JSON & Configuration Management.
 # Phase 1: Foundation & Planning
 Phase 1 established the foundational knowledge and setup required for the firewall project, focusing on environment setup, Scapy basics, and system design.
-Day 1: Environment Setup & Scapy Basics 
+ # Environment Setup & Scapy Basics 
 1. Installing scrapy in kali linux virtual machine : sudo install scapy 
 2. Packet Sniffing & Analysis
 3. Firewall Rule Logic & Design
 Commands : pip install scapy
 packet[IP].src, packet[TCP].dport
 sniff()
-# sample code : 1. Complete Phase 1 prototype
+# sample code : 
+1. Complete Phase 1 prototype
 class BasicFirewall:
     def __init__(self):
         self.rules = []
@@ -61,7 +62,7 @@ Phase 2 focused on building the core functionality of the personal firewall, imp
 load_rules_from_file(filename): To read rules from a JSON or text file when the firewall starts.
 
 display_rules(): To show all active rules.
-# code :
+# Phase 2 sample code :
 1. def start_monitoring(self, interface=None):
     """Start packet capture and filtering"""
     self.is_running = True
@@ -109,7 +110,7 @@ python firewall.py --stop: Stops the firewall and flushes temporary block rules.
 python firewall.py --add-rule ...: Adds a rule via the command line.
 
 python firewall.py --view-logs: Tails the log file.
-# code :
+# Phase 3 sample code :
 1. import argparse
 
 def setup_cli_interface():

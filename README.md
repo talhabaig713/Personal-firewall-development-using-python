@@ -897,12 +897,16 @@ python firewall_gui.py
         main()
 # Snapshot :
  # 1. First interface
+ 
 <img width="820" height="455" alt="1" src="https://github.com/user-attachments/assets/f8c18fa4-f4f0-417e-b414-475db8e2ba15" />
  # 2. Rules
+ 
 <img width="624" height="432" alt="2" src="https://github.com/user-attachments/assets/71a2e36d-224b-43a8-8aaa-2dd36cbdd2fd" />
  # 3. Monitoring
+ 
 <img width="581" height="421" alt="3" src="https://github.com/user-attachments/assets/40d59430-32a7-42de-a62a-6f6946793ce8" />
  # 4. Logs
+ 
    <img width="738" height="421" alt="4" src="https://github.com/user-attachments/assets/ac8c61c8-91e3-411a-bdb9-f59994d5c49f" />
    
 # conclusion :
